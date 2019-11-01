@@ -13,7 +13,7 @@ Each state is represented by a string, the x's are blank spaces and each number 
 When changing the size of the board, make sure to also change the endposition and the startState. Also the rr car must always be on the same horizontal line as the endposition. There is an example of different sized boards commented out in the script
 
 startState =\
-       "444122" \
+ \t/t"444122" \
 "133122" \
 "1xrr22" \
 "331xxx" \

@@ -1,7 +1,7 @@
 #Script to solve the rush hour game.
 #Creates states representing the positions of the cars on the board and adds it to a FIFO queue. Will then select a car(searches the board left to right, top to bottom) to find the cars new posible positions and create a new state for each of them. These new states are then added to the queue and the nodesdictionary.
 #The script will continue extracting states from the queue and creating new ones until a state is found that has an "r" at the end position.
-#By saving the states, moves and previous state into a dictionary when the victory conditions are met they can be recovered and printed out by backtracking.
+#By saving the states, moves and previous states in a dictionary when the victory conditions are met they can be recovered and printed out by backtracking.
 #Each state is represented by a string, the x's are blank spaces and each number represents a type of car:
 # 1 = length 2 vertical car
 # 2 = length 3 vertical car
